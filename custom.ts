@@ -1,15 +1,15 @@
 /**
-* ADTools - Some custom blocks
+* ADTools - Some useful custom blocks
 */
 namespace ADTools {
     /**
      * Joins an array of numbers into a string
      */
     
-    //% help=numArrayToString
+    //% help=packNums
     //% weight=86
-    //% blockId=numArrayToString block="join num array %values to string with %del"
-    export function numArrayToString(values: number[], del: Delimiters): string {
+    //% blockId=packNums block="pack num array %values into a string with %del"
+    export function packNums(values: number[], del: Delimiters): string {
         let s="";
         if (!values) return s;
         for (let i = 0; i < values.length; ++i) {
@@ -23,9 +23,9 @@ namespace ADTools {
      * Splits a string into an array of numbers
      */
     
-    //% help=stringToNumArray
-    //% blockId=stringToNumArray block="split %str by %del into num array"
-    export function stringToNumArray(str: string, del: Delimiters): number[] {
+    //% help=unpackNums
+    //% blockId=unpackNums block="unpack %str by %del into num array"
+    export function unpackNums(str: string, del: Delimiters): number[] {
         let values=str.split(serial.delimiters(del));
         let out:number[]=[];
         if (!values) return out;
