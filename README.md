@@ -18,6 +18,27 @@ To edit this repository in MakeCode.
 * click on **Import** then click on **Import URL**
 * paste **https://github.com/adumont/pxt-ADTools** and click import
 
+## Usage
+
+### packNums
+
+Say we have some sensors readings, and we want to send sensors via Radio. ADTools.packNums() lets us pack them all into a string we can send in a single message, like this:
+
+```blocks
+let sensors = [0.2, 251, 0.01, 895]
+// @highlight
+let send = ADTools.packNums(sensors, Delimiters.Pipe)
+```
+
+### unpackNums
+
+On the receiving end, say we received the packed string via Radio, we can unpack a string into an array of numbers using ADTools.unpackNums(), like this:
+
+```blocks
+// @highlight
+let received = ADTools.unpackNums(send, Delimiters.Pipe)
+```
+
 ## Blocks preview
 
 This image shows the blocks code from the last commit in master.

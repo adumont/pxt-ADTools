@@ -10,7 +10,7 @@ let send = ADTools.packNums(sensors, Delimiters.Pipe)
 // we use ADTools.logStr() to see a string on the console.log
 ADTools.logStr(send)
 
-// on the other end, say we received a string via Radio
+// on the receiving end, say we received a string via Radio
 // we can unpack a string into an array of numbers
 let received = ADTools.unpackNums(send, Delimiters.Pipe)
 
