@@ -1,5 +1,5 @@
 {
-    "name": "test-extension",
+    "name": "pxt-ADTools",
     "description": "",
     "dependencies": {
         "core": "*",

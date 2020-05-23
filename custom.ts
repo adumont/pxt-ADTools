@@ -1,6 +1,13 @@
 /**
 * ADTools - Some useful custom blocks
 */
+
+/* Help: 
+ * https://www.youtube.com/watch?v=Ku_nHstZS64&t=30s
+ * https://makecode.com/defining-blocks
+ * https://learn.adafruit.com/custom-extensions-for-makecode/custom-blocks
+ * https://www.tutorialspoint.com/typescript/
+ */
 namespace ADTools {
     /**
      * Joins an array of numbers into a string
@@ -22,7 +29,6 @@ namespace ADTools {
     /**
      * Splits a string into an array of numbers
      */
-    
     //% help=unpackNums
     //% blockId=unpackNums block="unpack %str by %del into num array"
     export function unpackNums(str: string, del: Delimiters): number[] {
@@ -39,7 +45,6 @@ namespace ADTools {
     /**
      * Log a string to the console
      */
-    
     //% help=logStr
     //% advanced=true
     //% blockId=logStr block="log string %str to console"
@@ -50,7 +55,6 @@ namespace ADTools {
     /**
      * Log a number to the console
      */
-    
     //% help=logNumber
     //% advanced=true
     //% blockId=logNumber block="log number %str to console"
