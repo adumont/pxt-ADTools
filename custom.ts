@@ -45,10 +45,10 @@ namespace ADTools {
     /**
      * Log a string to the console
      */
-    //% help=logStr
+    //% help=logString
     //% advanced=true
-    //% blockId=logStr block="log string %str to console"
-    export function logStr(str: string): void {
+    //% blockId=logString block="log string %str to console"
+    export function logString(str: string): void {
         console.log(str);
     }
 

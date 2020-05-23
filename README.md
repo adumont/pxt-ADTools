@@ -39,6 +39,22 @@ On the receiving end, say we received the packed string via Radio, we can unpack
 let received = ADTools.unpackNums(send, Delimiters.Pipe)
 ```
 
+### logString
+
+Logs a string to the console (for debugging purpose).
+
+```blocks
+logString("Hello world")
+```
+
+### logNumber
+
+Logs a number to the console (for debugging purpose).
+
+```blocks
+logNumber(25)
+```
+
 ## Blocks preview
 
 This image shows the blocks code from the last commit in master.
