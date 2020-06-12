@@ -3,11 +3,9 @@
 
 ## Use as Extension
 
-**This extension is for MakeCode BETA**, it doesn't work in MakeCode stable (as of May 25, 2020).
-
 This repository can be added as an **extension** in MakeCode.
 
-* open [https://makecode.microbit.org/beta](https://makecode.microbit.org/beta)
+* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * click on **New Project**
 * click on **Extensions** under the gearwheel menu
 * search for **https://github.com/adumont/pxt-ADTools** and import
@@ -16,7 +14,7 @@ This repository can be added as an **extension** in MakeCode.
 
 To edit this repository in MakeCode.
 
-* open [https://makecode.microbit.org/beta](https://makecode.microbit.org/beta)
+* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * click on **Import** then click on **Import URL**
 * paste **https://github.com/adumont/pxt-ADTools** and click import
 
